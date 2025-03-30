@@ -1,0 +1,49 @@
+@font-face {
+    font-family: main;
+    src: url(../fonts/IBMPlex-Regular.otf);
+}
+
+p {
+    font-size: 14px;
+    color: #DDDDDD;
+}
+
+h5 {
+    font-size: 16px;
+    color: #CECECE;
+}
+
+body {
+    font-family: main;
+    background-color: #1D1E33;
+}
+
+img {
+    width: 367px;
+}
+
+div.mn {
+    padding-left: 12px;
+
+    height: auto;
+    width: 350px;
+    word-wrap: break-word;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border-left: solid;
+    border-top: dotted;
+    border-right: dotted;
+    border-bottom: dotted;
+
+    border-left-width: 3px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+
+    border-left-color: #EEEEEE;
+    border-top-color: #EEEEEE;
+    border-right-color: #EEEEEE;
+    border-bottom-color: #EEEEEE;
+}
