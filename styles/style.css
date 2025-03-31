@@ -8,6 +8,19 @@
     src: url(../fonts/stitchwarrior.ttf);
 }
 
+@font-face {
+    font-family: warn;
+    src: url(../fonts/unifont.otf)
+}
+
+p.warning {
+    display: inline;
+    align: right;
+    font-family: warn;
+    color: #FFFF00;
+    
+}
+
 p {
     font-family: main;
     font-size: 18px;
