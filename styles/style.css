@@ -1,11 +1,17 @@
 @font-face {
     font-family: main;
-    src: url(../fonts/IBMPlex-Regular.otf);
+    src: url(../fonts/bitwise.ttf);
+}
+
+@font-face {
+    font-family: stitch;
+    src: url(../fonts/stitchwarrior.ttf);
 }
 
 p {
-    font-size: 14px;
-    color: #DDDDDD;
+    font-family: main;
+    font-size: 18px;
+    color: #FFFF00;
 }
 
 div.head {
@@ -14,18 +20,19 @@ div.head {
 }
 
 h3 {
-    font-size: 24px;
-    color: #CECECE;
+    font-family: stitch;
+    font-size: 28px;
+    color: #FFFF00;
 }
 
 h5 {
-    font-size: 16px;
-    color: #CECECE;
+    font-family: stitch;
+    font-size: 20px;
+    color: #FFFF00;
 }
 
 body {
-    font-family: main;
-    background-color: #1D1E33;
+    background-color: #000000;
 }
 
 img {
@@ -54,16 +61,17 @@ div.mn {
     border-right-width: 2px;
     border-bottom-width: 2px;
 
-    border-left-color: #EEEEEE;
-    border-top-color: #EEEEEE;
-    border-right-color: #EEEEEE;
-    border-bottom-color: #EEEEEE;
+    border-left-color: #FFFF00;
+    border-top-color: #FFFF00;
+    border-right-color: #FFFF00;
+    border-bottom-color: #FFFF00;
 }
 
 a {
+    font-family: main;
     display: inline;
     text-decoration: none;
-    color: #CECECE;
+    color: #FFFF00;
 }
 
 span {
@@ -72,7 +80,7 @@ span {
 
 span:hover {
     opacity: 100%;
-    color: #FEFEFE;
+    color: #CCCC00;
 }
 
 div.nav {
