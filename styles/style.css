@@ -15,7 +15,12 @@
 
 @font-face {
     font-family: warn;
-    src: url(../fonts/unifont.otf)
+    src: url(../fonts/unifont.otf);
+}
+
+@font-face {
+	font-family: cnt;
+	src: url(../fonts/toshi.ttf);
 }
 
 p.warning {
@@ -84,8 +89,36 @@ img {
 	    border-color: yellow;
 }
 
+.mnCNT {
+	    border-left-style: solid;
+	    /*margin-lleft: -100px;*/
+	    border-right-style: dotted;
+	    border-top-style: dotted;
+	    border-bottom-style: dotted;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	    width: 350px;
+	    height: auto;
+	    word-wrap: break-word;
+	    border-color: yellow;
+}
+
+table {
+	width: 100%;
+	/*border: 5px solid white;*/
+	margin: auto;
+}
+
+.cntr {
+	width: 100%;
+	margin: auto;
+}
+
 tr, th, td {
 	padding: 7.5px;
+	vertical-align: middle;
 }
 
 a {
@@ -126,10 +159,14 @@ div.nav {
 }
 
 .tabDiv {
+	/*border: 5px solid white;*/
 	height: 500px;
-	width: 500px;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin: auto;
-	float: center;
+	/*float: center;*/
 }
 
 
@@ -146,3 +183,21 @@ embed {
 	z-index: 0;
 }
 
+.anno {
+	font-family: cnt;
+	text-align: center;
+	font-size: 26px;
+}
+
+.garum {
+	display: block;
+	margin: auto;
+	width: 600px;
+	image-rendering: optimizeSpeed;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: pixelated;
+	image-rendering: optimize-contrast;
+	-ms-interpolation-mode: nearest-neighbor;
+}
